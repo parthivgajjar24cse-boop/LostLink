@@ -1,0 +1,17 @@
+{
+    "name": "lostlink/lostlink-app",
+    "description": "LostLink University Lost & Found System",
+    "type": "project",
+    "require": {
+        "php": ">=8.0",
+        "cloudinary/cloudinary_php": "^3.0",
+        "ext-fileinfo": "*",
+        "ext-pdo": "*",
+        "ext-pdo_mysql": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "LostLink\\": "src/"
+        }
+    }
+}
